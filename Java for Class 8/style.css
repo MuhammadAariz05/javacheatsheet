@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 56px;
+}
+
+.content{
+    font-family: 'Hind', sans-serif;
+}
+
+.container{
+    font-family: 'Source Serif 4', sans-serif;
+    width: 50vw;
+    padding: 32px 0;
+    margin: auto;
+}
+
+.logo{
+    padding: 0 13px;
+}
+
+.logo img{
+    width: 32px;
+}

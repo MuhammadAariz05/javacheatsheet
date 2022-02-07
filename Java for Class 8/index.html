@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prism/prism.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap" rel="stylesheet">
+    <script src="prism/prism.js"></script>
+    <title>Java Cheatsheet By Muhammad Aariz</title>
+</head>
+<body>
+    <nav>
+        <span class="logo"><a href="https://www.youtube.com/channel/UChHeVmdryBBweYS3G1GgpLw"><img src="img/logo.PNG" alt=""></a></span>
+        <div class="content center">
+            <strong>Java Cheatsheet for Class 8 Students!</strong>
+        </div>
+    </nav>
+    <div class="container">
+        <ol>
+
+            <li>Boilerplate
+                <pre class="language-java"><code>class HelloWorld{ 
+    void main(){ 
+        //Write your code here 
+    } 
+}</code></pre>
+            </li>
+
+            <li>Class
+            <pre class="language-java"><code>class HelloWorld{
+    //Write your code
+}
+            </code></pre>
+        </li>
+
+            <li>Function
+                <pre class="language-java"><code>void main(){
+    //Write your code
+}
+                </code></pre>
+            </li>
+
+                <li>Single-line comments
+                <pre class="language-java"><code>//Hello, compiler will ignore me
+                </code></pre>
+            </li>
+
+                <li>Multi-line comments
+                    <pre class="language-java"><code>/*Hello
+I am a Multi-line
+comment
+*/
+                </code></pre>
+            </li>
+
+                <li>Printing Strings
+                    <pre class="language-java"><code>System.out.println("Hello World");
+                    </code></pre>
+                </li>
+
+                <li>Printing Variables
+                    <pre class="language-java"><code>int c = 'A';
+System.out.println(c);
+                    </code></pre>
+                </li>
+
+                <li>Integer
+                    <pre class="language-java"><code>int a = 34;
+                    </code></pre>
+                </li>
+
+                <li>Float
+                    <pre class="language-java"><code>float b = 3.14f;
+                    </code></pre>
+                </li>
+
+                <li>Character
+                    <pre class="language-java"><code>char c = 'A';
+                    </code></pre>
+                </li>
+
+                <li>Boolean
+                    <pre class="language-java"><code>boolean isDevelopedByAariz = true;
+                    </code></pre>
+                </li>
+
+                <li>Addition
+                    <pre class="language-java"><code>int a = 10 + 3;
+                    </code></pre>
+                </li>
+
+                <li>Subtraction
+                    <pre class="language-java"><code>int b = 10 - 3;
+                    </code></pre>
+                </li>
+
+                <li>Multiplication
+                    <pre class="language-java"><code>int c = 7*7;
+                    </code></pre>
+                </li>
+
+                <li>Division
+                    <pre class="language-java"><code>int d = 10/2;
+                    </code></pre>
+                </li>
+
+                <li>Remainder
+                    <pre class="language-java"><code>int e = 10%3;
+                    </code></pre>
+                </li>
+
+                <li>Addition assignment
+                    <pre class="language-java"><code>var += 10
+                    </code></pre>
+                </li>
+                <li>Subtraction assignment
+                    <pre class="language-java"><code>var -= 10
+                    </code></pre>
+                </li>
+                <li>Multiplication assignment
+                    <pre class="language-java"><code>var *= 10
+                    </code></pre>
+                </li>
+                <li>Division assignment
+                    <pre class="language-java"><code>var /= 10
+                    </code></pre>
+                </li>
+                <li>Modulus assignment
+                    <pre class="language-java"><code>var %= 10
+                    </code></pre>
+                </li>
+
+               
+                <li>Modulus assignment
+                    <pre class="language-java"><code>var %= 10
+                    </code></pre>
+                </li>
+
+                <li>Increment Operator
+                    <pre class="language-java"><code>int z = 7;
+++z; //Result = 8
+z++; //Result = 8, change will be reflected next time
+                    </code></pre>
+                </li>
+                <li>Decrement Operator
+                    <pre class="language-java"><code>int y = 7;
+--z; //Result = 6
+z--; //Result = 6, change will be reflected next time
+                    </code></pre>
+                </li>
+
+                <li>Logicial AND
+                    <pre class="language-java"><code>(10 == 10) && (9 ==9)
+//Takes two condition, if both are true, returns true, else false
+                    </code></pre>
+                </li>
+
+                <li>Logicial OR
+                    <pre class="language-java"><code>(10 == 10) || (9 ==9)
+//Takes two condition, if atleast one is true, returns true, else false
+                    </code></pre>
+                </li>
+
+                <li>Logicial NOT
+                    <pre class="language-java"><code>!(10 == 10)
+//If true, returns false, if false, returns true
+                    </code></pre>
+                </li>
+
+                <li>Equality Operator
+                    <pre class="language-java"><code>10 == 10
+//returns true if value 1 and value 2 are same, else false
+                    </code></pre>
+                </li>
+
+                <li>Less than
+                    <pre class="language-java"><code>10 < 11
+//returns true if value 1 is less than value 2, else false
+                    </code></pre>
+                </li>
+
+                <li>Greater than
+                    <pre class="language-java"><code>10 > 9
+//returns true if value 1 is greater than value 2, else false
+                    </code></pre>
+                </li>
+
+                <li>Greater than or equal to
+                    <pre class="language-java"><code>10 >= 9
+//returns true if value 1 is greater than or equal to value 2, else false
+                    </code></pre>
+                </li>
+
+                <li>Greater than
+                    <pre class="language-java"><code>10 <= 9
+//returns true if value 1 is less than or equal to value 2, else false
+                    </code></pre>
+                </li>
+
+                <li>If Statement
+                    <pre class="language-java"><code>if (condition) {
+    // block of code to be executed if the condition is true
+}
+                    </code></pre>
+                </li>
+
+                <li>If-Else Statement
+                    <pre class="language-java"><code>if (condition) {
+    // If condition is True then this block will get executed
+} else {
+    // If condition is False then this block will get executed
+}
+                    </code></pre>
+                </li>
+
+                <li>If Else-If Statement
+                    <pre class="language-java"><code>if (condition1) {
+    // Write your code here
+}
+else if(condition2) {
+    // Write your code here
+}
+else if (condition3) {
+    // Write your code here
+}
+else {
+    // Write your code here
+}
+                    </code></pre>
+                </li>
+                
+                <li>isLetter();
+                    <pre class="language-java"><code>char var1 = 'a';
+System.out.println(Character.isLetter(var1));
+//returns true if the variable given as argument is a alphabet
+                    </code></pre>
+                </li>
+
+                <li>isDigit();
+                    <pre class="language-java"><code>char var2 = 'b';
+System.out.println(Character.isDigit(var2));
+//returns true if the variable given as argument is a number
+                    </code></pre>
+                </li>
+
+                <li>isWhiteSpace();
+                    <pre class="language-java"><code>char var3 = 'c';
+System.out.println(Character.isWhiteSpace(var3));
+//returns true if the variable given as argument contains spaces
+                    </code></pre>
+                </li>
+
+                <li>isUpperCase();
+                    <pre class="language-java"><code>char var4 = 'd';
+System.out.println(Character.isUpperCase(var4));
+//returns true if the variable given as argument is in upcase
+                    </code></pre>
+                </li>
+
+                <li>isLowerCase();
+                    <pre class="language-java"><code>char var5 = 'e';
+System.out.println(Character.isLowerCase(var5));
+//returns true if the variable given as argument is in downcase
+                    </code></pre>
+                </li>
+
+                <li>toUpperCase();
+                    <pre class="language-java"><code>char var6 = 'f';
+System.out.println(Character.toUpperCase(var6));
+//converts downcase character to upper case
+                    </code></pre>
+                </li>
+
+                <li>toLowerCase();
+                    <pre class="language-java"><code>char var7 = 'G';
+System.out.println(Character.toLowerCase(var7));
+//converts upcase character to downcase
+                    </code></pre>
+                </li>
+
+                <li>Math.pow()
+                    <pre class="language-java"><code>System.out.println(Math.pow(2, 3)); 
+//returns the value of first argument raised to the power to second argument
+                    </code></pre>
+                </li>
+
+                <li>Math.sqrt()
+                    <pre class="language-java"><code>System.out.println(Math.sqrt(9)); 
+//returns the square root of a number
+                    </code></pre>
+                </li>
+            
+                <li>Math.sqrt()
+                    <pre class="language-java"><code>System.out.println(Math.cbrt(9)); 
+//returns the cube root of a number
+                    </code></pre>
+                </li>
+            
+                <li>Math.floor()
+                    <pre class="language-java"><code>System.out.println(Math.floor(5.54)); 
+//retruns the largest integer value which is less than or equal to the argument
+                    </code></pre>
+                </li>
+            
+                <li>Math.abs()
+                    <pre class="language-java"><code>System.out.println(Math.abs(-45)); 
+//returns the absolute value of the given argument
+                    </code></pre>
+                </li>
+            
+                <li>Math.max()
+                    <pre class="language-java"><code>System.out.println(Math.max(45,64)); 
+//returns the largest of two values
+                    </code></pre>
+                </li>
+            
+                <li>Math.min()
+                    <pre class="language-java"><code>System.out.println(Math.min(45,64)); 
+//returns the smallest of two values
+                    </code></pre>
+                </li>
+            
+                <li>Math.random()
+                    <pre class="language-java"><code>System.out.println(Math.random(45,64)); 
+//returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0
+                    </code></pre>
+                </li>
+        </ol>
+    </div>
+</body>
+</html>
